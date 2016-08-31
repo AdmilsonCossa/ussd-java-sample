@@ -135,9 +135,6 @@ public class UssdHandler extends HttpServlet {
 				ex.printStackTrace();
 			}
 			e.printStackTrace();
-		}
-		finally{
-			out.close();
 		}		
 	}
 
